@@ -1,0 +1,34 @@
+h1 {
+  text-align: center; /* Center the heading */
+  font-size: 20px; /* Adjust the font size as desired */
+}
+
+nav {
+  background-color: #DCDCDC;
+  text-align: center; /* Center the navigation bar */
+  padding: 10px; /* Add padding to create space between the border and the navigation bar */
+  border: 2px solid black; /* Add a black border around the navigation bar */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block; /* Make the navigation bar centered */
+}
+
+nav ul li {
+  display: inline;
+  border-right: 1px solid black; /* Add right border to separate the options */
+}
+
+nav ul li:last-child {
+  border-right: none; /* Remove the right border from the last option */
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px 15px; /* Adjust the padding values to control the size of the navigation bar */
+  color: blue;
+  text-decoration: none;
+}
